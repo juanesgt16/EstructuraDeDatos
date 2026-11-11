@@ -5,28 +5,34 @@ Cada estructura tiene su implementación propia, un programa de prueba y una exp
 
 ## Contenido
 
-| Estructura | Carpeta | Estado |
+| Estructura | Tipo | Carpeta |
 |---|---|---|
-| Pila | [src/pila](src/pila) | listo |
-| Cola | [src/cola](src/cola) | listo |
-| Lista enlazada | [src/listaenlazada](src/listaenlazada) | listo |
-| Vector | src/vector | pendiente |
-| Árboles | src/arbol | pendiente |
+| Pila | lineal | [src/pila](src/pila) |
+| Cola | lineal | [src/cola](src/cola) |
+| Lista enlazada | lineal | [src/listaenlazada](src/listaenlazada) |
+| Vector | lineal | [src/vector](src/vector) |
+| Árbol binario de búsqueda | no lineal | [src/arbol](src/arbol) |
+| Mapa (tabla hash) | no lineal | [src/mapa](src/mapa) |
+| Conjunto | no lineal | [src/conjunto](src/conjunto) |
+| Grafo | no lineal | [src/grafo](src/grafo) |
 
 ## Cómo ejecutar
 
-Desde la raíz del repositorio:
+Desde la raíz del repositorio (requiere Java 17 o superior):
 
 ```bash
-javac -d out src/pila/*.java src/cola/*.java src/listaenlazada/*.java
+javac -encoding UTF-8 -d out src/*/*.java
 
 java -cp out pila.PruebaPila
 java -cp out pila.BalanceParentesis
 java -cp out cola.PruebaCola
 java -cp out listaenlazada.PruebaListaEnlazada
+java -cp out vector.PruebaVector
+java -cp out arbol.PruebaArbol
+java -cp out mapa.PruebaMapa
+java -cp out conjunto.PruebaConjunto
+java -cp out grafo.PruebaGrafo
 ```
-
-Requiere Java 17 o superior.
 
 ## Autor
 Juan Esteban Gaviria Tamayo
