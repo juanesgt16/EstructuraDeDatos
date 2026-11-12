@@ -6,6 +6,4 @@
 
 **Cuándo usarla:** turnos de atención, tareas pendientes, impresión de documentos.
 
-## Archivos
-- `Cola.java`: implementación propia con nodos enlazados.
-- `PruebaCola.java`: ejemplo de uso (turnos de atención).
+

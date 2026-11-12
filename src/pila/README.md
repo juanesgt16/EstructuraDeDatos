@@ -6,10 +6,6 @@
 
 **Cuándo usarla:** historial de navegación, deshacer cambios, validar paréntesis.
 
-## Archivos
-- `Pila.java`: implementación propia con un arreglo que crece solo.
-- `PruebaPila.java`: ejemplo de uso (historial de navegación).
-- `BalanceParentesis.java`: ejercicio que verifica si una cadena de paréntesis está balanceada.
 
 ## Ejercicio
 Diseña un programa que verifique si una cadena de paréntesis está balanceada.

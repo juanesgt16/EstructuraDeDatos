@@ -12,6 +12,4 @@
 
 **Cuándo usarlo:** búsquedas rápidas en datos ordenados, jerarquías como carpetas o menús.
 
-## Archivos
-- `ArbolBusqueda.java`: implementación propia.
-- `PruebaArbol.java`: ejemplo de uso.
+

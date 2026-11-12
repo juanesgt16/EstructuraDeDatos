@@ -11,6 +11,4 @@
 
 **Cuándo usarlo:** mapas y rutas, redes sociales, dependencias entre tareas.
 
-## Archivos
-- `Grafo.java`: implementación (las listas de adyacencia usan `Map` y `List` de Java).
-- `PruebaGrafo.java`: ejemplo con municipios del Valle de Aburrá.
+
